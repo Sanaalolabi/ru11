@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 10px black;
+    padding: 10px 0px;
+}
+.logo{
+    height: 70px;
+}
+.logo img{
+    height: 100%;
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    transition: 1s;
+}
+nav a:hover{
+    background: linear-gradient(rgb(214, 57, 253),white);
+    color: black;
+}
+/* end header */
+
+/* home page */
+.home-page{
+    background-image: url(../images/home-bg-img.png);
+    height: 100vh;
+    background-size: cover ;
+    display: flex;
+    align-items: center;
+}
+.home-page-left{
+    width: 50%;
+    padding-left: 40px;
+}
+.home-page-left h2{
+    font-size: 60px;
+    color: #7e4196;
+}
+.home-page-left h3{
+    font-size: 40px;
+    color: #fd3494;
+    margin: 10px 0px;
+}
+.home-page-left p{
+    font-size: 20px;
+    color: gray;
+    margin: 20px 0px;
+}
+.home-page-left button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(30deg,#7e4196,#fd3494);
+    border: none;
+}
+.home-page-right{
+    width: 50%;
+
+}
+.home-page-right img{
+    width: 88%;
+}
+/* end home page */
+.search{
+    height: 40vh;
+    background-image: url(../images/subscribe-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 25px;
+}
+.search-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+.search-item button{
+    display: block;
+    border-radius: 20px;
+    padding: 15px 15px ;
+    border: none;
+
+}
+input{
+    margin: 10px 0px ;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 15px;
+    width: 300px;
+}
+.features-titel{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 40px;
+}
+.features-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.item{
+    width: 30%;
+    padding: 15px;
+}
+.item h4{
+font-size: 30px;
+text-align: center;
+padding: 20px 0px;
+}
+.item p{
+    padding: 15px 0px;
+
+}
